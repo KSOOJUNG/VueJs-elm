@@ -10,5 +10,6 @@ module.exports = {
   },
   parserOptions: {
     parser: "babel-eslint"
-  }
+  },
+  ignore:[  './src/assets/mui/js/mui.js']
 };
